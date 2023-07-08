@@ -19,6 +19,8 @@ def simplify_grammar(text):
     corrected_text = grammar_check(text)
     return corrected_text
 
-input_text = "I wnt too tha store to by som fruts and vgitables."
+input_text = input("Enter a sentence: ")
+
 corrected_text = simplify_grammar(input_text)
+print("Corrected sentence:")
 print(corrected_text)
